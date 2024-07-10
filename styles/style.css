@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+.azeret-mono {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight:normal;
+    font-style: normal;
+  }
 /* universal style  */
 *{
     padding: 0;
@@ -8,6 +14,9 @@
 /* shared style start */
 .text-center{
     text-align: center;
+}
+.text-right{
+    justify-content: end;
 }
 /* shared style start */
 /* navbar style start */
@@ -84,3 +93,69 @@ font-weight: 600;
 margin-top: 30px;
 }
 /* hero section style end */
+/* why web development style start */
+.why-web-development{
+ width: 1140px;
+ height:800px;
+ margin: 0 auto;
+ margin-top: 100px;
+}
+.why-web-dev-heading{
+ width:852px;
+ height:115px;
+ margin: 0 auto;
+ margin-top:130px;
+}
+.why-web-dev-heading>h1{
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size:30px;
+font-weight: 800;
+margin-top: 40px;
+}
+
+.why-web-dev-heading>p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top:20px;
+}
+.cart-container{
+    width: 850px;
+    height: 240px;
+    margin:0 auto;
+    margin-top:20px;
+    display: flex;
+}
+.cart-content{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+.cart-content>h1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 54px;
+    font-weight: 800;
+    }
+.cart-content>p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 12px;
+    font-weight: 400;
+}
+.cart-content>button{
+    height:44px;
+    width:150px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size:12px;
+    font-weight: 600;
+}
+.cart1-img{
+    margin-left: auto;
+}
+/* why web development style end */
