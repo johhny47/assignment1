@@ -325,4 +325,17 @@ button{
     padding: 5px;
 }
   /* support section style end  */
-
+/* footer style start  */
+.footer-continer{
+    width: 1440px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    
+}
+.footer-text{
+    margin-left:200px;
+    font-weight: 800;
+}
+/* footer style end */
