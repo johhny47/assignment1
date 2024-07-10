@@ -15,9 +15,7 @@
 .text-center{
     text-align: center;
 }
-.text-right{
-    justify-content: end;
-}
+
 /* shared style start */
 /* navbar style start */
 .navbar{
@@ -159,3 +157,45 @@ margin-top: 40px;
     margin-left: auto;
 }
 /* why web development style end */
+/* my-inspiration style start  */
+.my-inspiration-container{
+    width: 1140px;
+    height: 777px;
+    margin: 0 auto;
+}
+.my-inspiration-content{
+   
+    width: 852px;
+    height: 115px;
+    margin: 0 auto;
+}
+.my-inspiration-content>h1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 25px;
+    font-weight: 800;
+}
+.my-inspiration-content>p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 40px;
+}
+
+.my-inspiration-video-container{
+    width: 1140px;
+    height: 614px;
+    margin-top: 40px;
+    border: 2px solid wheat;
+}
+.my-inspiration-video{
+ background-color: 10px solid white;
+    width: 1076px;
+    height: 550px;
+    margin:0 auto;
+    margin-top:32px;
+    border-radius: 20px;
+    z-index: -1;
+}
+/* my-inspiration style end  */
