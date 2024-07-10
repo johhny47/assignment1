@@ -248,3 +248,37 @@ margin-top: 30px;
 }
 
 /* my current target style end  */
+/* my next target style start  */
+.my-next-target-containar{
+    width: 1140px;
+    height: 866px;
+    margin: 0 auto;
+}
+.my-next-target-heading>p{
+    margin-top: 30px;
+}
+.skills-container{
+    width: 1140px;
+    height: 705px;
+    padding-top: 30px;
+    margin-top: 20px;
+   
+}
+.skill-cart{
+    width: 1140px;
+    height: 219px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    justify-content: start;
+    gap: 30px;
+    border: 2px solid rgba(0,0,0,0.2 );
+    border-radius: 10px;
+    margin-bottom:20px;
+
+} 
+.skill-cart-img{
+ padding-left: 20px;
+}
+ /* my next target style end */
+ 
