@@ -15,6 +15,19 @@
 .text-center{
     text-align: center;
 }
+.heading-color{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 25px;
+    font-weight: 800;
+}
+.paragraph-color{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 40px;
+}
 
 /* shared style start */
 /* navbar style start */
@@ -104,20 +117,8 @@ margin-top: 30px;
  margin: 0 auto;
  margin-top:130px;
 }
-.why-web-dev-heading>h1{
-color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size:30px;
-font-weight: 800;
-margin-top: 40px;
-}
-
 .why-web-dev-heading>p{
-    color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-size: 12px;
-    font-weight: 400;
-    margin-top:20px;
+    margin-top: 30px;
 }
 .cart-container{
     width: 850px;
@@ -169,20 +170,9 @@ margin-top: 40px;
     height: 115px;
     margin: 0 auto;
 }
-.my-inspiration-content>h1{
-    color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-size: 25px;
-    font-weight: 800;
-}
 .my-inspiration-content>p{
-    color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-size: 15px;
-    font-weight: 400;
-    margin-top: 40px;
+    margin-top: 30px;
 }
-
 .my-inspiration-video-container{
     width: 1140px;
     height: 614px;
@@ -199,3 +189,62 @@ margin-top: 40px;
     z-index: -1;
 }
 /* my-inspiration style end  */
+/* my current target style start  */
+.my-current-target-container{
+    width: 1140px;
+    height: 460px;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+
+.my-current-tatget-heading>p{
+    margin-top: 30px;
+ 
+}
+.my-current-tatget-cart{
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    margin-top:48px;
+    text-align: left;
+    gap: 24px;
+}
+.my-current-target-cart1{
+    width: 364px;
+    height: 299px;
+    background-color: cornflowerblue;
+    padding: 40px;
+}
+.my-current-target-cart1>h4{
+   margin-top: 20px;
+   color: rgb(13, 19, 33);
+   font-family: Azeret Mono;
+   font-size: 25px;
+   font-weight: 800;
+}
+.my-current-target-cart1>p{
+    margin-top: 20px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 12px;
+    font-weight: 400;
+ }
+ .cart-link>a{
+    color:black;
+    font-weight: bold;
+ }
+ .cart-link{
+    margin-top: 40px;
+   
+ }
+ #bg1{
+   background-color:#fef6f5;
+ }
+ #bg2{
+  background-color:#f3f6ff;
+ }
+#bg3{
+ background-color: #fffcf3;
+}
+
+/* my current target style end  */
