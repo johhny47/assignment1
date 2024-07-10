@@ -281,4 +281,48 @@ margin-top: 30px;
  padding-left: 20px;
 }
  /* my next target style end */
- 
+ /* support section style start  */
+ .support-container{
+    width: 1140px;
+    height:400px;
+    margin: 0 auto;
+    background-image: url(../assets/handshake.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 130px;
+ }
+ .support-heading{
+    padding-top:150px;
+ } 
+ .support-heading>h1{
+    font-size:40px;
+    font-weight: 700;
+    color:rgb(255, 255, 255);
+ }
+ .support-input{
+    height: 57px;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 80px;
+    
+}
+input{
+    width:72%;
+    height: 100%;
+    border-radius:7px;
+   color: rgba(13, 19, 33, 0.4);
+   text-align: center;
+   border: #f3f6ff;
+}
+button{
+    width: 20%;
+    height:100%;
+    border-radius:7px;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    border: #f3f6ff;
+    padding: 5px;
+}
+  /* support section style end  */
+
